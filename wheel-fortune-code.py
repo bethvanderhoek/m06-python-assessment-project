@@ -442,7 +442,7 @@ def round_3():
     make_space()
     print(f'Welcome to Round 3 {round_3_player_name}! The rules are different for you in this round.{new_line}We have chosen a random prize for you; if you guess the word, you recieve your total earnings AND the prize!')
     print('\nWe will fill in the letters RSTLNE before you begin, and we will show you the word.\nThen you will guess 3 consonants and one vowel (no spin or purchase required).\n...')
-    print(f'{new_line}Then you have TEN SECONDS to guess the word!! {round_3_player_name}, you CAN do this! :)')
+    print(f'{new_line}Then you have FIVE SECONDS to guess the word!! {round_3_player_name}, you CAN do this! :)')
     make_space()
     print(f'{new_line}Here is the word with letters RSTLNE already filled in:{new_line}{hidden_word}')
     
@@ -472,7 +472,7 @@ def round_3():
         print(f'Yay {round_3_player_name} I knew you could do it!!')
         make_space()
     else:
-        print(f'Aww man that was not the word! Do not worry {round_3_player_name}, you still get ${round_3_player_earnings}!')
+        print(f'Aww man that was not the word! The word was {chosen_word}. Do not worry {round_3_player_name}, you still get ${round_3_player_earnings}!')
 
 #does player want new game after round 3 ends    
 def play_again_response():
